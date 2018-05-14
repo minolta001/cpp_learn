@@ -1,0 +1,12 @@
+(a) int ival = 1.01;
+    valid, but the number will be round to 1;
+
+
+(b) int &rval1 = 1.01;
+    invalid
+
+(c) int &rval2 = ival;
+    valid
+
+(d) int &rval3;
+    invalid, must be initialized

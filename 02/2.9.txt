@@ -1,0 +1,11 @@
+(a) std::cin >> int input_value;
+    illegal, 
+
+
+(b) int i = { 3.14 };
+    illegal
+(c) double salary = wage = 9999.99;
+    illegal
+
+(d) int i = 3.14;
+    ok, implict conversion.

@@ -1,0 +1,39 @@
+unsigned u = 10, u2 = 42; 
+std::cout << u2 - u << std::endl;
+
+(* answer *)
+32, no wrap
+
+std::cout << u - u2 << std::endl;
+
+(* answer *)
+wrap around. If int hasd 16 bits, so the largest number for an unsigned int is 2 ^ 16 - 1.
+Therefore, u - u2 = (2 ^ 16) - (u2 - u) = 65503
+if 32 bit, then, (2 ^ 32) - (u2 - u)
+
+
+
+int i = 10, i2 = 42;
+
+std::cout << i2 - i << std::endl;
+(* answer *) 
+32
+
+
+std::cout << i - i2 << std::endl;
+(* answer *)
+-32
+
+
+
+std::cout << i - u << std::endl;
+(* answer *)
+signed 10 - unsigned 10,
+the result will be converted to unsigned result, 0
+
+std::cout << u - i << std::endl;
+unsigned 10 - signed 10,
+i converted to unsigned int first, so the result is unsigned 0
+
+
+

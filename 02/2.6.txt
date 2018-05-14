@@ -1,0 +1,8 @@
+
+int month = 9, day = 7; 
+(decimal digit, int)
+
+
+int month = 09, day = 07;
+(error, oct digit should be in range 0 ~ 7)
+

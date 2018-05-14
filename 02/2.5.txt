@@ -1,0 +1,10 @@
+(a) 'a', L'a', "a", L"a"
+(b) 10, 10u, 10L, 10uL, 012, 0xC
+(c) 3.14, 3.14f, 3.14L
+(d) 10, 10u, 10., 10e-2
+
+
+(a) char, wide char, string, wide string literal? or long string literal?
+(b) int, unsigned int, long int, unsigned long int, oct, hex
+(c) floating point (double) , floating point (float), long float
+(d) int, unsigned int, float (double), float (double)
